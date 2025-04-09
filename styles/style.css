@@ -113,7 +113,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin-bottom: 68px;
+  margin: 0;
   color: #ffffff;
 }
 
@@ -121,12 +121,15 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width: 760px;
+  list-style-type: none;
+  margin: auto;
   margin-top: 68px;
-  margin: 0 auto;
   gap: 40px;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 .card {
@@ -162,6 +165,7 @@
 }
 
 .card__footer {
+  margin: 0;
   margin-top: auto;
   font-size: 14px;
   line-height: 20px;
