@@ -325,7 +325,7 @@
 }
 
 .step {
-  max-width: 220px; /* Agrega estilos */
+  flex-basis: 220px;
 }
 
 .step__title {
